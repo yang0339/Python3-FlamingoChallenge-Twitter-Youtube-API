@@ -46,3 +46,5 @@ all_sorted_follower_user |all_sorted_follower_user_mention | all_user_retweet_co
 --- | --- | --- | --- 
 
 and **2 plot** showing the scattered plot for favorite vs. retweet and user_mentioned vs. retweet, indicating there exists no hidden relations between them and that all metrics could only tell part of the story.
+
+[favorite vs. retweet](Python3-FlamingoChallenge-Twitter-Youtube-API/Twitter/figure_1_retweet_vs_fav.png)
