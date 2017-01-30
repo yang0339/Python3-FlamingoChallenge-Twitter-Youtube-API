@@ -21,14 +21,14 @@ It comprises of two separate files for YouTube and Twitter search respectively.
 
 ## YouTube:
 
-**YouTube_script.py** is the one-in-all script that request for API search, parse data and do simple sorting for SubscriberCount
-and output analytics in dataframe ['ChannelTitle', 'ChannelID', 'SubscriberCount'], which can be referred in **output_youtube.csv**
+[**YouTube_script.py**](https://github.com/yang0339/Python3-FlamingoChallenge-Twitter-Youtube-API/blob/master/YouTube/Youtube_script.py) is the one-in-all script that request for API search, parse data and do simple sorting for SubscriberCount
+and output analytics in dataframe ['ChannelTitle', 'ChannelID', 'SubscriberCount'], which can be referred in [**output_youtube.csv**](https://github.com/yang0339/Python3-FlamingoChallenge-Twitter-Youtube-API/blob/master/YouTube/output_youtube.csv).
 
 ## Twitter
 
 Twitter files is a bit more complicated.
 
-**Twitter_one_keyword** uses API keyword search and parse all relevant fields into one dataframe for each keyword. There is a sleep command at last to prevent hitting the rate limit.
+[**Twitter_one_keyword**](https://github.com/yang0339/Python3-FlamingoChallenge-Twitter-Youtube-API/blob/master/Twitter/Twitter_one_keyword.py) uses API keyword search and parse all relevant fields into one dataframe for each keyword. There is a sleep command at last to prevent hitting the rate limit.
 
 Revelant 11 fields includes:
 
@@ -38,9 +38,11 @@ tweet_favorite | tweet_id	 | tweet_retweet | user_favorite |	user_follower	| use
 
 Though the project only utilized part of the stats for its ranking.
 
-**Twitter_one_keyword** will output 26 different csv. files for each keyword, **data_twitter_Minecraft.csv** is included as a demo.
-
-Moving to second part, **Twitter_two_postprocess.py** does the necessary post-crawling analysis, and generate **4 different metrics** namely
+**Twitter_one_keyword** will output 26 different csv. files for each keyword, [**data_twitter_Minecraft.csv**](https://github.com/yang0339/Python3-FlamingoChallenge-Twitter-Youtube-API/blob/master/Twitter/data_twitter_Minecraft.csv) is included as a demo.
+<br/>
+<br/>
+***
+Moving to second part, [**Twitter_two_postprocess.py**](https://github.com/yang0339/Python3-FlamingoChallenge-Twitter-Youtube-API/blob/master/Twitter/Twitter_two_postprocess.py) does the necessary post-crawling analysis, and generate **4 different metrics** namely
 
 all_sorted_follower_user |all_sorted_follower_user_mention | all_user_retweet_count | all_user_mention_count
 --- | --- | --- | --- 
