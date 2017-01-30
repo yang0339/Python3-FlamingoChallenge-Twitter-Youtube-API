@@ -45,6 +45,5 @@ Moving to second part, **Twitter_two_postprocess.py** does the necessary post-cr
 all_sorted_follower_user |all_sorted_follower_user_mention | all_user_retweet_count | all_user_mention_count
 --- | --- | --- | --- 
 
-and **2 plot** showing the scattered plot for favorite vs. retweet and user_mentioned vs. retweet, indicating there exists no hidden relations between them and that all metrics could only tell part of the story.
+and **2 plot** showing the scattered plot for [favorite vs. retweet](https://github.com/yang0339/Python3-FlamingoChallenge-Twitter-Youtube-API/blob/master/Twitter/figure_1_retweet_vs_fav.png) and [user_mentioned vs. retweet](https://github.com/yang0339/Python3-FlamingoChallenge-Twitter-Youtube-API/blob/master/Twitter/figure_2_user_mentioned_vs_retweet.png), indicating there exists no hidden relations between them and that all metrics could only tell part of the story.
 
-[favorite vs. retweet](Python3-FlamingoChallenge-Twitter-Youtube-API/Twitter/figure_1_retweet_vs_fav.png)
