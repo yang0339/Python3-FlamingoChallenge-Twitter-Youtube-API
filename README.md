@@ -1,6 +1,6 @@
 # Flamingo Challenge
 This project aims at finding the **top 100 influencers** from social media (Youtube and Twitter) using API search.
-**Technical Challenge Answer.pdf** is the answer sheet for the challenge.
+[**Technical Challenge Answer.pdf**](https://github.com/yang0339/Python3-FlamingoChallenge-Twitter-Youtube-API/blob/master/Technical%20Challenge%20Answer.pdf) is the answer sheet for the challenge.
 
 ### API search:
 Twitter and YouTube has their own tutorials for developers on API search. However, it is noticeable that they all pose certain **rate limit** for developers.
